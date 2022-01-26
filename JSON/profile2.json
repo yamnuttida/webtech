@@ -1,0 +1,32 @@
+{
+	"A1A2": [{
+		"code": "620710405",
+		"fisrt name": "Nuttida",
+		"last name": "Lapthanachai",
+		"nickname": "yam",
+		"birthday": "21 Jan 2001",
+		"phone no.": "0963159755",
+		"hobbies": "Discover New K-Series",
+		"table": {
+			"mon": "522253-getting&cleaning",
+			"tue": ["515271-probs","522241-web"],
+			"wed": ["522211-com","515271-probs","510202-eng"],
+			"thu": ["522254-big data","512100-nature"],
+			"fri": null
+		}
+	}, {
+		"code": "620710745",	"fisrt name": "Arthitaya",
+		"last name": "Chomthong",
+		"nickname": "tangmay",
+		"birthday": "18 Mar 2001",
+		"phone no.": "0929740712",
+		"hobbies": "Drawing",
+		"table": {
+			"mon": "522253-getting&cleaning",
+			"tue": ["515271-probs","522241-web"],
+			"wed": ["522211-com","515271-probs","510202-eng"],
+			"thu": ["522254-big data","512100-nature"],
+			"fri": null
+		}
+	}]
+}

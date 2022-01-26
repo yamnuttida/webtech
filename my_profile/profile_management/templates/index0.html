@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>YAM | MAY</title>
+    <!-- Required meta tags --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <!-- Latest compiled and minified CSS --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
+    <!-- jQuery library --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <!-- Popper JS --> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+    <!-- Latest compiled JavaScript --> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>  
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Bungee+Shade?preview.size=30#standard-styles">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <style>
+.container {
+    width: 1100px;
+    margin: 0 auto;}
+.menubar {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    box-shadow: 0 0 5px #666; }
+.menubar ul.menu {
+    list-style: none;
+    float: right;
+    margin-top: 8px;}
+.menubar ul.menu li {
+    float: left;
+    margin-right: 40px;}
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 10px;
+    transition: all 0.6s ease;}
+.menubar ul.menu li a:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0; }
+
+.header {
+    background: #666 #ffffff no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 45px;
+    width: 100%;
+    height: 650px;}
+.header_area {
+    padding-top: 10px;
+    color: #666;
+    margin: 0 auto;
+    width: 1100px;}
+.header_area .cardym {float: left;}
+.header_area .cardtm {float: right;}
+
+footer {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;}
+footer p {margin: 0;}
+    
+    </style>
+</head>
+<body>
+    <div class="menubar">
+        <div class="container">
+            <ul class="nav justify-content-center">
+            <ul class="menu">
+                <li><b><a href="{% url 'index' %}">HOME</a></b></li>
+                <li><b><a href="{% url 'contact' %}">CONTACT</a></b></li>
+            </ul>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="header">
+            <div class="header_area">
+            <div class="cardym">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="https://profile405475.herokuapp.com/ym.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">{{var1}}</h4>
+                  <p class="card-text">{{var2}}</p>
+                  <a href="{% url 'yam' %}" class="btn btn-dark">See Profile</a>
+                </div>
+            </div>
+            </div>
+            <div class="cardtm">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top" src="https://profile405475.herokuapp.com/tm.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title">{{var3}}</h4>
+                      <p class="card-text">{{var4}}</p>
+                      <a href="{% url 'tangmay' %}" class="btn btn-dark">See Profile</a>
+                    </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <footer> 
+        <p>Young | Data Scientists</p>
+    </footer>
+</body>    
+</html>

@@ -1,0 +1,13 @@
+{
+    "contact-info" : [{ 
+        "-category" : "residence",
+        "name" : "Tanmay Patil",
+        "company" : "TutorialsPoint",
+        "phone" : "(011) 123-4567"
+    }, {
+        "-category" : "shop",
+        "name" : "StarBuck Salaya",
+        "company" : "StarBuck PlC",
+        "phone" : "0123334567"
+    }]
+}

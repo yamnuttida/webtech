@@ -1,0 +1,13 @@
+<?xml version = "1.0"?>
+<contact-info>
+   <address category = "residence">
+      <name>Tanmay Patil</name>
+      <company>TutorialsPoint</company>
+      <phone>(011) 123-4567</phone>
+   </address>
+   <address category = "shop">
+      <name>StarBuck Salaya</name>
+      <company>StarBuck PlC</company>
+      <phone>0123334567</phone>
+   </address>
+</contact-info>

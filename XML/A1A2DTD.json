@@ -1,0 +1,55 @@
+{
+    "A1A2": {
+      "Profile": [
+        {
+          "-person": "A1",
+          "code": "620710405",
+          "name": "Nuttida Lapthanachai",
+          "nickname": "Yam",
+          "birthday": "21 Jan 2001",
+          "phone": "0963159755",
+          "hobbies": "Discover New K-Series",
+          "table": {
+            "Mon": { 
+				"subject": "522253-getting&cleaning" 
+			},
+            "Tue": {
+				"subject": ["515271-probs","522241-web"]
+			},
+            "Wed": {
+				"subject": ["522211-com","515271-probs","510202-eng"]
+			},
+			"Thu": {
+				"subject": ["522254-big data","512100-nature"]
+			},
+            "Fri": null
+          }
+        },
+        {
+          "-person": "A2",
+          "code": "620710745",
+          "name": "Arthitaya Chomthong",
+          "nickname": "Tangmay",
+          "birthday": "18 Mar 2001",
+          "phone": "0929740712",
+          "hobbies": "Drawing",
+          "table": {
+            "Mon": {
+				"subject": "522253-getting&cleaning" 
+			},
+            "Tue": {
+				"subject": ["515271-probs","522241-web"]
+			},
+            "Wed": {
+				"subject": ["522211-com","515271-probs","510202-eng"]
+			},
+            "Thu": {
+				"subject": ["522254-big data","512100-nature"]
+			},
+            "Fri": null
+          }
+        }
+      ]
+    }
+  }
+  

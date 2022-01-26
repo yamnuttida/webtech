@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE A1A2 [
+  <!ELEMENT A1A2 (Profile)*>
+  <!ELEMENT Profile (code,name,nickname,birthday,phone,hobbies,table)*>
+  <!ELEMENT code (#PCDATA)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT nickname (#PCDATA)>
+  <!ELEMENT birthday (#PCDATA)>
+  <!ELEMENT phone (#PCDATA)>
+  <!ELEMENT hobbies (#PCDATA)>
+  <!ELEMENT table (Mon,Tue,Wed,Thu,Fri)*>
+  <!ELEMENT Mon (subject)*>
+  <!ELEMENT Tue (subject)*>
+  <!ELEMENT Wed (subject)*>
+  <!ELEMENT Thu (subject)*>
+  <!ELEMENT Fri (subject)*>
+  <!ELEMENT subject (#PCDATA)>
+  <!ATTLIST Profile person CDATA #REQUIRED>
+]>
+<A1A2>
+   <Profile person="A1">
+      <code>620710405</code>
+      <name>Nuttida Lapthanachai</name>
+      <nickname>Yam</nickname>
+      <birthday>21 Jan 2001</birthday>
+      <phone>0963159755</phone>
+      <hobbies>Discover New K-Series</hobbies>
+      <table>
+         <Mon>
+            <subject>522253-getting&amp;cleaning</subject>
+         </Mon>
+         <Tue>
+            <subject>515271-probs</subject>
+            <subject>522241-web</subject>
+         </Tue>
+         <Wed>
+            <subject>522211-com</subject>
+            <subject>515271-probs</subject>
+            <subject>510202-eng</subject>
+         </Wed>
+         <Thu>
+            <subject>522254-big data</subject>
+            <subject>512100-nature</subject>
+         </Thu>
+         <Fri />
+      </table>
+   </Profile>
+   <Profile person="A2">
+      <code>620710745</code>
+      <name>Arthitaya Chomthong</name>
+      <nickname>Tangmay</nickname>
+      <birthday>18 Mar 2001</birthday>
+      <phone>0929740712</phone>
+      <hobbies>Drawing</hobbies>
+      <table>
+         <Mon>
+            <subject>522253-getting&amp;cleaning</subject>
+         </Mon>
+         <Tue>
+            <subject>515271-probs</subject>
+            <subject>522241-web</subject>
+         </Tue>
+         <Wed>
+            <subject>522211-com</subject>
+            <subject>515271-probs</subject>
+            <subject>510202-eng</subject>
+         </Wed>
+         <Thu>
+            <subject>522254-big data</subject>
+            <subject>512100-nature</subject>
+         </Thu>
+         <Fri />
+      </table>
+   </Profile>
+</A1A2>

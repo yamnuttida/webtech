@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dict-en-th>
+    <word cat = "VT">
+        <sentry>abandon</sentry>
+        <ssample>Nature is said to abhor a vacuum</ssample>
+        <ssyn>loathe, abominate, execrate, hate</ssyn>
+        <sant>love, admire</sant>
+        <tentry>เกลียดชัง</tentry>
+        <ctrelate>เกลียด, ชิงชัง</ctrelate>
+    </word>
+    <word cat = "N">
+        <sentry>ability</sentry>
+        <ssample>Its beyond my ability to write an article for the school newspaper.</ssample>
+        <ssyn>capability, expertness</ssyn>
+        <sant>inability, unfitness</sant>
+        <tentry>ความสามารถ</tentry>
+        <ctrelate>ความมีฝีมือ, ความมีทักษะ, สมรรถภาพ</ctrelate>
+    </word>
+    <word cat = "VI">
+        <sentry>anger</sentry>
+        <ssample>Dont anger yourself over that - theyre just kids.</ssample>
+        <ssyn>lose one's temper, forget oneself, get mad</ssyn>
+        <sant>calm</sant>
+        <tentry>โกรธ</tentry>
+        <ctrelate>โมโห</ctrelate>
+    </word>
+    <word cat = "N">
+        <sentry>anger</sentry>
+        <ssample>Many of the students shared both the anger and the sorrow of the main characters in the movie.</ssample>
+        <ssyn>rage, indignation, hot temper</ssyn>
+        <sant>calm, mildness</sant>
+        <tentry>ความโกรธ</tentry>
+        <ctrelate>ความเคือง</ctrelate>
+    </word>
+</dict-en-th>

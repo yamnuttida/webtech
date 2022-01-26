@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>YAM | MAY</title>
+    <!-- Required meta tags --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <!-- Latest compiled and minified CSS --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
+    <!-- jQuery library --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <!-- Popper JS --> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+    <!-- Latest compiled JavaScript --> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>  
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Bungee+Shade?preview.size=30#standard-styles">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <style>
+.menubar {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    box-shadow: 0 0 5px #666; }
+.menubar ul.menu {
+    list-style: none;
+    float: right;
+    margin-top: 8px;}
+.menubar ul.menu li {
+    float: left;
+    margin-right: 40px;}
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 10px;
+    transition: all 0.6s ease;}
+.menubar ul.menu li a:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0; }
+
+.header {
+    background: #666 #ffffff no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 1px;
+    width: 100%;
+    height: 750px;}
+.container {
+    width: 1100px;
+    margin: 0 auto;}
+
+footer {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;}
+footer p {margin: 0;}
+
+.info1 {
+    width: 100%;
+    height: 350px;}
+.info1_area {
+    color: #333;}
+.info1_area img {
+    margin-top: 50px;
+    float: left;}
+.info1_text {
+    text-align: center;
+    width: 460px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 100px;}
+.info1_area h1 {
+    margin: 0;
+    font-weight: normal;}
+.carousel-inner {
+    padding-left: 500px;
+    padding-top: 25px;}
+.images {
+    background-color: #666;
+    width: 100%;
+    height: 550px;
+    margin-top: 80px;}
+.carousel-indicators {padding-left: 0px;}
+.icons {padding-top: 50px;}
+.text {
+    padding-top: 50px;
+    color: white;
+    font-size: 50px;
+    text-align: center;}
+.social {
+    margin-top: -35px;
+    padding-left: 135px;}
+
+    </style>
+</head>
+{% load static %}
+<body>
+    <div class="menubar">
+        <div class="container">
+            <ul class="nav justify-content-center">
+            <ul class="menu">
+                <li><b><a href="{% url 'index' %}">HOME</a></b></li>
+                <li><b><a href="{% url 'myweb' %}">BACK</a></b></li>
+                <li><b><a href="{% url 'contact' %}">CONTACT</a></b></li>
+            </ul>
+            </ul>
+        </div>
+    </div>
+    <section class="info1">
+        <div class="container">
+            <div class="info1_area">
+                <img src="{% static 'images/tm.jpg' %}" class="rounded" width = "350">               
+                <div class="info1_text">
+                    <h2>I'M {{var1}}</h2>
+                    <h3>{{var2}}</h3>
+                    <p> Birthday : {{var3}}</p> 
+                    <p> Hard Skills: {{var4}} </p> 
+                    <p> Tools Skills: {{var5}} </p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100004960632598"><img src="{% static 'images/f.png' %}" alt="facebook" style="width:35px;height:35px;" hspace = "10" vspace = "50" ></a>
+                        <a href="https://www.instagram.com/arthitayachomthong/"><img src="{% static 'images/ig.png' %}" alt="instagram" style="width:35px;height:35px;" hspace = "10" vspace = "50"></a>
+                        <a href="mailto:Chomthong_a@silpakorn.edu"><img src="{% static 'images/gm.png' %}" alt="gmail" style="width:40px;height:40px;" hspace = "10" vspace = "50"></a>
+                    </div> 
+                </div>
+            </div>    
+        </div>
+    </section>
+    <div class="images">
+        <div class="text"><h2> My Hobbies </h2></div>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li  data-target="#demo" data-slide-to="1"></li>
+                <li  data-target="#demo" data-slide-to="2"></li>
+            </ul> 
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img src="{% static 'images/t1.jpg' %}" width="500px" height="350px"></div>
+                <div class="carousel-item"><img src="{% static 'images/t3.jpg' %}" width="500px" height="350px"></div>
+                <div class="carousel-item"><img src="{% static 'images/t2.jpg' %}" width="500px" height="350px"></div> 
+            </div>       
+            <!-- Left and right controls -->
+            <div class="icons">
+                <a class="carousel-control-prev" href="#demo" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                <a class="carousel-control-next" href="#demo" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer><p>Young | Data Sciencetists</p></footer>
+</body>    
+</html>
